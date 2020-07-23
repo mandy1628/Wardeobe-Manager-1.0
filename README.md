@@ -9,6 +9,6 @@ Akshat Srivastava (@Arsh150701),
 
 Devansh Agarwal (@devanshagar783),
 
-Manas Shukla (),
+Manas Shukla (@mandy1612),
 
 Patel Deep ()
