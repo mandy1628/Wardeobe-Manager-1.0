@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/About"
+            android:text="About us"
+            android:layout_marginTop="75dp"
+            android:fontFamily="cursive"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_red_dark"/>
+
+        <TextView
+            android:id="@+id/about1"
+            android:layout_below="@+id/About"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="version : 1.0.0"
+            />
+
+        <TextView
+            android:id="@+id/about2"
+            android:layout_below="@+id/about1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This application is created by a group of students and is still in its alpha stage. we hope to take this application to the further level in the following time."/>
+
+        <TextView
+            android:id="@+id/about3"
+            android:layout_below="@+id/about2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Developers: Akshat Srivastava, Deep Patel, Devansh Agarwal, Manas Shukla"
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

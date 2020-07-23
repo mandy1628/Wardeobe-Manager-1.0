@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExistingClothesActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/white"
+            android:fontFamily="cursive"
+            android:text="EXISTING CLOTHES"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="shirts/ T-shirts"
+                android:id="@+id/btn1b"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jeans"
+                android:id="@+id/btn1c"
+                android:layout_below="@+id/btn1b"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"/>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
