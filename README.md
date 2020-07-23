@@ -11,4 +11,4 @@ Devansh Agarwal (@devanshagar783),
 
 Manas Shukla (@mandy1612),
 
-Patel Deep ()
+Patel Deep (@pateldeep1842)
